@@ -1,7 +1,7 @@
 from excel_wrapper import XlApplicationInternational
 from zipfile import ZipFile
 from glob import fnmatch
-from xml.etree import ElementTree
+from defusedxml import ElementTree
 
 from rdflib.tools.csv2rdf import column
 
